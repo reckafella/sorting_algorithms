@@ -2,12 +2,13 @@
 
 /**
  * bubble_sort - bubble sort algorithm
+ *
  * @array: array to be sorted
  * @size: size of the array
  */
 void bubble_sort(int *array, size_t size)
 {
-	size_t i, j;
+	unsigned long int i, j;
 	int temp;
 
 	for (i = 0; i < size; i++)
